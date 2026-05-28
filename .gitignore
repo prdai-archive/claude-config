@@ -1,0 +1,29 @@
+# secrets
+.credentials.json
+.credentials*
+
+# runtime / session state
+/sessions/
+/projects/
+/session-env/
+/shell-snapshots/
+/history.jsonl
+/.last-cleanup
+/.caveman-active
+/paste-cache/
+/file-history/
+/backups/
+/plans/
+/tasks/
+/telemetry/
+/cache/
+
+# plugin runtime caches (contain nested git repos)
+/plugins/cache/
+/plugins/data/
+/plugins/marketplaces/
+
+# editor noise
+*.swp
+*~
+.DS_Store

@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "defaultMode": "auto"
+  },
+  "extraKnownMarketplaces": {
+    "caveman": {
+      "source": {
+        "source": "github",
+        "repo": "JuliusBrussee/caveman"
+      }
+    }
+  },
+  "skipDangerousModePermissionPrompt": true,
+  "theme": "dark",
+  "skipAutoPermissionPrompt": true,
+  "enabledPlugins": {
+    "caveman@caveman": true
+  }
+}
